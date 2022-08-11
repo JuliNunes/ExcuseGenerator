@@ -1,14 +1,15 @@
 // VERSÃO BR
 const entrada = [
-	'Velho, foi mal,',
+	'Velho, foi mal, não va da,',
 	'Se liga no que aconteceu,',
-	'Mano, olha isso,',
+	'Mano, não vou poder ir mais,',
 	'Desculpa, não vou conseguir ir,',
 	'My bad, não vou aparecer,',
 	'Você não vai acreditar nisso,',
 	'Por favor não fica com raiva, não vou poder ir mais,',
 	'Isso vai parecer uma desculpa, mas se liga,',
 	'Hoje não vai da mano,',
+	'Não vou poder sair porque',
 ];
 
 const culpado = [
@@ -33,8 +34,8 @@ const motivo = [
 	'cagou na minha cama.',
 	'roubou meu dinheiro.',
 	'me deu um filho.',
-	'me pediu em casamento',
-	'me deu um tiro',
+	'me pediu em casamento.',
+	'me deu um tiro.',
 ];
 
 function generator() {
