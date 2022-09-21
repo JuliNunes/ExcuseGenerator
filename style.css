@@ -42,7 +42,7 @@ button:hover {
 	background-color: rgb(0, 174, 0);
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 1080px) and (min-height: 2246px) {
 	div {
 		margin-left: 1rem;
 		margin-right: 0;
@@ -59,14 +59,42 @@ button:hover {
 
 @media (max-width: 750px) {
 	div {
-		margin-left: 0;
+		margin-left: 1rem;
 		margin-right: 0;
-		width: 15rem;
-		height: 30rem;
+		width: 40rem;
+		height: 50rem;
+	}
+	textarea {
+		width: 35rem;
+		height: 5rem;
+	}
+
+	button {
+		top: 10rem;
+	}
+}
+
+@media (max-width: 414px) {
+	div {
+		margin-left: 0;
+		width: 23rem;
+	}
+	textarea {
+		width: 20rem;
+	}
+}
+
+@media (max-width: 390px) {
+	div {
+		width: 13rem;
+		height: 25rem;
 	}
 	textarea {
 		width: 12rem;
-		height: 5rem;
+	}
+	button {
+		top: 6rem;
+		height: 3rem;
 	}
 }
 
