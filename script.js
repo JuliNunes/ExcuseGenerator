@@ -10,6 +10,7 @@ const entrada = [
 	'Isso vai parecer uma desculpa, mas se liga,',
 	'Hoje não vai da mano,',
 	'Não vou poder sair porque',
+	'Poxa amigo, não vai da para ir,',
 ];
 
 const culpado = [
@@ -30,7 +31,7 @@ const motivo = [
 	'morreu na minha frente.',
 	'caiu da escada.',
 	'me passou aids.',
-	'ta na prisão.',
+	'esta na prisão.',
 	'cagou na minha cama.',
 	'roubou meu dinheiro.',
 	'me deu um filho.',
